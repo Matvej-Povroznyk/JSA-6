@@ -1,0 +1,29 @@
+{
+  "name": "parcel-hw",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /JSA-6/",
+    "deploy": "npm run build && gh-pages -d dist -b deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matvej-Povroznyk/JSA-6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Matvej-Povroznyk/JSA-6/issues"
+  },
+  "homepage": "https://github.com/Matvej-Povroznyk/JSA-6#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "nanoid": "^6.0.0"
+  }
+}
